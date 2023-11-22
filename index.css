@@ -1,0 +1,47 @@
+body {
+    background-color: darkgreen;
+    padding: 20px;
+    margin: 0;
+    }
+    h1, h2, p, ul, li {
+    font-family: 'Times New Roman', Times, serif;
+    color: gray;
+    }
+    ul.header li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    }
+    ul.header {
+    background-color: lightcoral;
+    padding: 0;
+    }
+    ul.header li a {
+    color: darkgreen;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    }
+    .content {
+    background-color: lightgreen;
+    padding: 20px;
+    }
+    .content h2 {
+    padding: 0;
+    margin: 0;
+    }
+    .content li {
+    margin-bottom: 10px;
+    }
+    .active{
+        background-color: darkcyan;
+    }
+
+    .fish{
+     width: 800px;
+     height: 500px;   
+    }
+    .friend{
+        font-family: 'Times New Roman', Times, serif;
+    }
